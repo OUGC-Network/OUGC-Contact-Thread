@@ -4,9 +4,9 @@
  *
  *	OUGC Contact Thread plugin (/inc/plugins/ougc_contactthread.php)
  *	Author: Omar Gonzalez
- *	Copyright: © 2015 Omar Gonzalez
+ *	Copyright: © 2015 - 2020 Omar Gonzalez
  *
- *	Website: http://omarg.me
+ *	Website: https://ougc.network
  *
  *	Creates a forum thread instead of emailing a contact message.
  *
@@ -96,18 +96,18 @@ class OUGC_ContactThread
 		$this->load_language();
 
 		return array(
-			'name'					=> 'OUGC Contact Thread',
-			'description'			=> $lang->setting_group_ougc_contactthread_desc,
-			'website'				=> 'http://omarg.me',
-			'author'				=> 'Omar G.',
-			'authorsite'			=> 'http://omarg.me',
-			'version'				=> '1.0',
-			'versioncode'			=> 1000,
-			'compatibility'			=> '18*',
-			'codename'				=> 'ougc_contactthread',
+			'name'			=> 'OUGC Contact Thread',
+			'description'	=> $lang->setting_group_ougc_contactthread_desc,
+			'website'		=> 'https://ougc.network',
+			'author'		=> 'Omar G.',
+			'authorsite'	=> 'https://ougc.network',
+			'version'		=> '1.8.20',
+			'versioncode'	=> 1820,
+			'compatibility'	=> '18*',
+			'codename'		=> 'ougc_contactthread',
 			'pl'			=> array(
-				'version'	=> 12,
-				'url'		=> 'http://mods.mybb.com/view/pluginlibrary'
+				'version'	=> 13,
+				'url'		=> 'https://community.mybb.com/mods.php?action=view&pid=573'
 			)
 		);
 	}
@@ -224,7 +224,7 @@ class OUGC_ContactThread
 		{
 			global $lang;
 
-			flash_message($lang->sprintf($lang->ougc_contactthread_pluginlibrary_old, $PL->version, $this->plugin_info['pl']['version'], $this->plugin_info['pl']['ulr']), 'error');
+			flash_message($lang->sprintf($lang->ougc_contactthread_pluginlibrary_required, $this->plugin_info['pl']['ulr'], $this->plugin_info['pl']['version']), 'error');
 			admin_redirect('index.php?module=config-plugins');
 		}
 	}

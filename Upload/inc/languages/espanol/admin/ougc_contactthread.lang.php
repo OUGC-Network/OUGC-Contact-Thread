@@ -2,7 +2,7 @@
 
 /***************************************************************************
  *
- *	OUGC Contact Thread plugin (/inc/languages/english/admin/ougc_contactthread.lang.php)
+ *	OUGC Contact Thread plugin (/inc/languages/espanol/admin/ougc_contactthread.lang.php)
  *	Author: Omar Gonzalez
  *	Copyright: © 2015 - 2020 Omar Gonzalez
  *
@@ -29,13 +29,13 @@
  
 // Plugin APIC
 $l['setting_group_ougc_contactthread'] = 'OUGC Contact Thread';
-$l['setting_group_ougc_contactthread_desc'] = 'Creates a forum thread instead of emailing a contact message.';
+$l['setting_group_ougc_contactthread_desc'] = 'Crea un tema en lugar de enviar un mensaje de contacto por correo.';
 
 // PluginLibrary
-$l['ougc_contactthread_pluginlibrary_required'] = 'This plugin requires <a href="{1}">PluginLibrary</a> version {2} or later to be uploaded to your forum.';
+$l['ougc_contactthread_pluginlibrary_required'] = 'Este plugin requiere <a href="{1}">PluginLibrary</a> version {2} para funcionar. Favor de subir los archivos necesarios.';
 
 // Settings
-$l['setting_ougc_contactthread_forumid'] = 'Thread Forum';
-$l['setting_ougc_contactthread_forumid_desc'] = 'Select the forum wherein the contact thread should be created.';
-$l['setting_ougc_contactthread_disablemaling'] = 'Disable Mailing (Experimental)';
-$l['setting_ougc_contactthread_disablemaling_desc'] = 'Disable the sending of the e-mail.';
+$l['setting_ougc_contactthread_forumid'] = 'Foro';
+$l['setting_ougc_contactthread_forumid_desc'] = 'Selecciona el foro donde se creara el tema.';
+$l['setting_ougc_contactthread_disablemaling'] = 'Deshabilita el Correo (Experimental)';
+$l['setting_ougc_contactthread_disablemaling_desc'] = 'Evita que se enviee el correo electronico.';
