@@ -10,7 +10,7 @@
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/OUGC-Network/OUGC-Contact-Thread.svg)](./issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/OUGC-Network/OUGC-Contact-Thread-Media.svg)](./pulls)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/OUGC-Network/OUGC-Contact-Thread.svg)](./pulls)
 [![License](https://img.shields.io/badge/license-GPL-blue)](/LICENSE)
 
 </div>
