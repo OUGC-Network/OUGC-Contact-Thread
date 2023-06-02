@@ -226,7 +226,7 @@ class OUGC_ContactThread
         $fid = (int)$mybb->settings['ougc_contactthread_forumid'];
 
         if (empty($forum_cache[$fid])) {
-            return false;
+            return;
         }
 
         require_once \MYBB_ROOT . 'inc/datahandlers/post.php';

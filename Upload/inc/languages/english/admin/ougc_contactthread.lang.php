@@ -26,7 +26,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
 
-// Plugin APIC
+// Plugin API
 $l['setting_group_ougc_contactthread'] = 'OUGC Contact Thread';
 $l['setting_group_ougc_contactthread_desc'] = 'Creates a forum thread instead of emailing a contact message.';
 
@@ -34,7 +34,7 @@ $l['setting_group_ougc_contactthread_desc'] = 'Creates a forum thread instead of
 $l['ougc_contactthread_pluginlibrary_required'] = 'This plugin requires <a href="{1}">PluginLibrary</a> version {2} or later to be uploaded to your forum.';
 
 // Settings
-$l['setting_ougc_contactthread_forumid'] = 'Thread Forum';
-$l['setting_ougc_contactthread_forumid_desc'] = 'Select the forum wherein the contact thread should be created.';
-$l['setting_ougc_contactthread_disablemaling'] = 'Disable Mailing';
-$l['setting_ougc_contactthread_disablemaling_desc'] = 'Disable the sending of the e-mail.';
+$l['setting_ougc_contactthread_forumid'] = 'Contact Thread Forum';
+$l['setting_ougc_contactthread_forumid_desc'] = 'Select the forum where contact messages should be posted in.';
+$l['setting_ougc_contactthread_disablemaling'] = 'Disable Contact Mail';
+$l['setting_ougc_contactthread_disablemaling_desc'] = 'Stop the system from sending the contact mail.';
