@@ -103,7 +103,7 @@ Below you can find a description of the plugin settings.
 
 ## 📖 Usage <a name="usage"></a>
 
-This plugin has no setting or configuration; installing and activating should be sufficient to get this plugin working.
+This plugin has no additional configurations; after activating make sure to modify the global settings in order to get this plugin working.
 
 [Go up to Table of Contents](#table_of_contents)
 
