@@ -38,7 +38,7 @@
 
 ## 🚀 About <a name = "about"></a>
 
-OUGC Disable Quotes Media effortlessly enhances readability by converting image and video embeds within quoted content into convenient links, preventing clutter and improving the overall aesthetic of your forum. Say goodbye to messy threads and hello world to a more organized and visually appealing discussion platform with clutter-free posts.
+OUGC Contact Thread is a MyBB plugin designed to streamline communication on your forum. With this easy-to-use script, whenever a user submits a message via the contact form, a dedicated thread is automatically created within a specified forum. By redirecting contact messages to the forum, the plugin reduces the volume of emails sent, making communication more efficient and organized.
 
 [Go up to Table of Contents](#table_of_contents)
 
