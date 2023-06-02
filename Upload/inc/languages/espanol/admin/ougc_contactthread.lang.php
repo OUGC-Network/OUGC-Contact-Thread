@@ -38,3 +38,5 @@ $l['setting_ougc_contactthread_forumid'] = 'Foro de Temas de Contacto';
 $l['setting_ougc_contactthread_forumid_desc'] = 'Selecciona el foro donde se publicaran los mensajes de contacto.';
 $l['setting_ougc_contactthread_disablemaling'] = 'Deshabilita Correo de Contacto';
 $l['setting_ougc_contactthread_disablemaling_desc'] = 'Detener al sistema de enviar el correo de contacto.';
+$l['setting_ougc_contactthread_prefix'] = 'ID de Prefijo de Tema';
+$l['setting_ougc_contactthread_prefix_desc'] = 'Si el foro seleccionado requiere un prefijo de tema entonces esta opción es necesario.';

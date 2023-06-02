@@ -98,6 +98,8 @@ Below you can find a description of the plugin settings.
 	- _Select the forum where contact messages should be posted in._
 - **Disable Contact Mail** `yesNo` Default: `yes`
 	- _Stop the system from sending the contact mail._
+- **Thread Prefix ID** `yesNo` Default: `yes`
+	- _If the selected forum requires a thread prefix this setting is necessary._
 
 [Go up to Table of Contents](#table_of_contents)
 

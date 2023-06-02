@@ -62,6 +62,14 @@ function ougc_contactthread_is_installed(): bool
     return $contactthread->_is_installed();
 }
 
+// _uninstall() routine
+function ougc_contactthread_uninstall(): void
+{
+    global $contactthread;
+
+    $contactthread->_uninstall();
+}
+
 // Plugin class
 class OUGC_ContactThread
 {
@@ -122,6 +130,12 @@ class OUGC_ContactThread
                 'description' => $lang->setting_ougc_contactthread_disablemaling_desc,
                 'optionscode' => 'yesno',
                 'value' => 1
+            ],
+            'prefix' => [
+                'title' => $lang->setting_ougc_contactthread_prefix,
+                'description' => $lang->setting_ougc_contactthread_prefix_desc,
+                'optionscode' => 'numeric',
+                'value' => 0
             ],
         ]);
 
@@ -252,6 +266,7 @@ class OUGC_ContactThread
             'message' => $args['message'],
             'ipaddress' => $mybb->session->packedip,
             'savedraft' => 0,
+            'prefix' => (int)$mybb->settings['ougc_contactthread_prefix'],
             'options' => [
                 'signature' => 0,
                 'subscriptionmethod' => 0,

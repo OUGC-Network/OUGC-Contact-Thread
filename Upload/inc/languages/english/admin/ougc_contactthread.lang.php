@@ -38,3 +38,5 @@ $l['setting_ougc_contactthread_forumid'] = 'Contact Thread Forum';
 $l['setting_ougc_contactthread_forumid_desc'] = 'Select the forum where contact messages should be posted in.';
 $l['setting_ougc_contactthread_disablemaling'] = 'Disable Contact Mail';
 $l['setting_ougc_contactthread_disablemaling_desc'] = 'Stop the system from sending the contact mail.';
+$l['setting_ougc_contactthread_prefix'] = 'Thread Prefix ID';
+$l['setting_ougc_contactthread_prefix_desc'] = 'If the selected forum requires a thread prefix this setting is necessary.';
