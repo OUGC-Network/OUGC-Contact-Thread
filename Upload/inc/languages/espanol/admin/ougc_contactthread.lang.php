@@ -4,7 +4,7 @@
  *
  *    OUGC Contact Thread plugin (/inc/languages/espanol/admin/ougc_contactthread.lang.php)
  *    Author: Omar Gonzalez
- *    Copyright: © 2015 - 2020 Omar Gonzalez
+ *    Copyright: © 2015 - 2023 Omar Gonzalez
  *
  *    Website: https://ougc.network
  *
@@ -36,5 +36,5 @@ $l['ougc_contactthread_pluginlibrary_required'] = 'Este plugin requiere <a href=
 // Settings
 $l['setting_ougc_contactthread_forumid'] = 'Foro';
 $l['setting_ougc_contactthread_forumid_desc'] = 'Selecciona el foro donde se creara el tema.';
-$l['setting_ougc_contactthread_disablemaling'] = 'Deshabilita el Correo (Experimental)';
+$l['setting_ougc_contactthread_disablemaling'] = 'Deshabilita el Correo';
 $l['setting_ougc_contactthread_disablemaling_desc'] = 'Evita que se enviee el correo electronico.';
