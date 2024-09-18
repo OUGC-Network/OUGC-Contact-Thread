@@ -118,26 +118,31 @@ class OUGC_ContactThread
 
         $this->load_pluginlibrary();
 
-        $PL->settings('ougc_contactthread', $lang->setting_group_ougc_contactthread, $lang->setting_group_ougc_contactthread_desc, [
-            'forumid' => [
-                'title' => $lang->setting_ougc_contactthread_forumid,
-                'description' => $lang->setting_ougc_contactthread_forumid_desc,
-                'optionscode' => 'forumselectsingle',
-                'value' => ''
-            ],
-            'disablemaling' => [
-                'title' => $lang->setting_ougc_contactthread_disablemaling,
-                'description' => $lang->setting_ougc_contactthread_disablemaling_desc,
-                'optionscode' => 'yesno',
-                'value' => 1
-            ],
-            'prefix' => [
-                'title' => $lang->setting_ougc_contactthread_prefix,
-                'description' => $lang->setting_ougc_contactthread_prefix_desc,
-                'optionscode' => 'numeric',
-                'value' => 0
-            ],
-        ]);
+        $PL->settings(
+            'ougc_contactthread',
+            $lang->setting_group_ougc_contactthread,
+            $lang->setting_group_ougc_contactthread_desc,
+            [
+                'forumid' => [
+                    'title' => $lang->setting_ougc_contactthread_forumid,
+                    'description' => $lang->setting_ougc_contactthread_forumid_desc,
+                    'optionscode' => 'forumselectsingle',
+                    'value' => ''
+                ],
+                'disablemaling' => [
+                    'title' => $lang->setting_ougc_contactthread_disablemaling,
+                    'description' => $lang->setting_ougc_contactthread_disablemaling_desc,
+                    'optionscode' => 'yesno',
+                    'value' => 1
+                ],
+                'prefix' => [
+                    'title' => $lang->setting_ougc_contactthread_prefix,
+                    'description' => $lang->setting_ougc_contactthread_prefix_desc,
+                    'optionscode' => 'numeric',
+                    'value' => 0
+                ],
+            ]
+        );
 
         // Insert/update version into cache
         $pluginList = (array)$cache->read('ougc_plugins');
