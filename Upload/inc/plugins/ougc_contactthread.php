@@ -2,7 +2,7 @@
 
 /***************************************************************************
  *
- *    OUGC Contact Thread plugin (/inc/plugins/ougc_contactthread.php)
+ *    ougc Contact Thread plugin (/inc/plugins/ougc_contactthread.php)
  *    Author: Omar Gonzalez
  *    Copyright: © 2015 - 2023 Omar Gonzalez
  *
@@ -95,7 +95,7 @@ class OUGC_ContactThread
         $this->load_language();
 
         return [
-            'name' => 'OUGC Contact Thread',
+            'name' => 'ougc Contact Thread',
             'description' => $lang->setting_group_ougc_contactthread_desc,
             'website' => 'https://community.mybb.com/mods.php?action=view&pid=1361',
             'author' => 'Omar G.',
@@ -251,18 +251,12 @@ class OUGC_ContactThread
 
         $userID = (int)$mybb->user['uid'];
 
-        $userName = $lang->guest;
-
-        if ($userID) {
-            $userName = $mybb->user['username'];
-        }
-
         $threadData = [
             'fid' => $fid,
             'subject' => $args['subject'],
             'icon' => -1,
             'uid' => $userID,
-            'username' => $userName,
+            'username' => $mybb->user['username'] ?? '',
             'message' => $args['message'],
             'ipaddress' => $mybb->session->packedip,
             'savedraft' => 0,
@@ -281,13 +275,14 @@ class OUGC_ContactThread
 
             require_once \MYBB_ROOT . 'inc/functions_indicators.php';
 
-            \mark_thread_read($thread_info['tid'], $fid);
-        }
+            //\mark_thread_read($thread_info['tid'], $fid);
 
-        if ($mybb->settings['ougc_contactthread_disablemaling']) {
-            $args['continue_process'] = false;
+            // we disable mailing only if the thread was created successfully
+            if ($mybb->settings['ougc_contactthread_disablemaling']) {
+                $args['continue_process'] = false;
 
-            $mybb->settings['mail_logging'] = 0; // this could cause issues
+                $mybb->settings['mail_logging'] = 0; // this could cause issues
+            }
         }
     }
 

@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<h3 align="center">OUGC Contact Thread</h3>
+<h3 align="center">ougc Contact Thread</h3>
 
 <div align="center">
 
@@ -38,7 +38,7 @@
 
 ## 🚀 About <a name = "about"></a>
 
-OUGC Contact Thread is a MyBB plugin designed to streamline communication on your forum. With this easy-to-use script, whenever a user submits a message via the contact form, a dedicated thread is automatically created within a specified forum. By redirecting contact messages to the forum, the plugin reduces the volume of emails sent, making communication more efficient and organized.
+ougc Contact Thread is a MyBB plugin designed to streamline communication on your forum. With this easy-to-use script, whenever a user submits a message via the contact form, a dedicated thread is automatically created within a specified forum. By redirecting contact messages to the forum, the plugin reduces the volume of emails sent, making communication more efficient and organized.
 
 [Go up to Table of Contents](#table_of_contents)
 

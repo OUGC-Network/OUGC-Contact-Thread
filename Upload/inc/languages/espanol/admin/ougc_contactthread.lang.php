@@ -2,7 +2,7 @@
 
 /***************************************************************************
  *
- *    OUGC Contact Thread plugin (/inc/languages/espanol/admin/ougc_contactthread.lang.php)
+ *    ougc Contact Thread plugin (/inc/languages/espanol/admin/ougc_contactthread.lang.php)
  *    Author: Omar Gonzalez
  *    Copyright: © 2015 - 2023 Omar Gonzalez
  *
@@ -27,7 +27,7 @@
  ****************************************************************************/
 
 // Plugin API
-$l['setting_group_ougc_contactthread'] = 'OUGC Contact Thread';
+$l['setting_group_ougc_contactthread'] = 'ougc Contact Thread';
 $l['setting_group_ougc_contactthread_desc'] = 'Crea un tema en un foro en lugar de enviar un mensaje de contacto por correo.';
 
 // PluginLibrary
